@@ -2,6 +2,11 @@ from PIL import Image
 from io import BytesIO
 import optparse
 
+def getCurrentPixel(image):
+    """
+    Get the current pixel.
+    """
+    
 def Main():
 	parser = optparse.OptionParser('usage %prog '+\
 		'-e/-d <target imagefile> -f <target textfile>')
