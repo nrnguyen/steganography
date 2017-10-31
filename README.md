@@ -12,11 +12,11 @@ October 31, 2017
 ## Description
 
 Steganography is the study of hiding data. This project hides text data into images. The project was created using Python and Pillow for image manipulation.
-Hidden messages can be encoded and then decoded. The image output uses a lossless filetype. This project was written on OS: Microsoft Windows 10.
+Hidden messages can be encoded and then decoded. The image output uses a lossless filetype. This project was written on Microsoft Windows 10.
 
 ## Architecture
 
-This Steganography script uses optparse to grab arguments from the CLI. The script opens an image specified by the user and the pixels are loaded. Pixel information is stored within a class and accessed when needed. The encoder writes the length of the text into the image and then the content. The decoder pulls message length and text content. The output can be displayed through the CLI or saved to a text file.
+This Steganography script uses optparse to grab arguments from the CLI. The script opens an image specified by the user and the pixels are loaded. Pixel information is stored within a class and accessed when needed. The encoder writes the length of the text into the image and then the content. A new 'outputimage.png' is created after text is provided. The decoder pulls message length and text content. The output can be displayed through the CLI or saved to a text file.
 
 ## Instructions
 
