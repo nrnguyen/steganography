@@ -16,14 +16,11 @@ Hidden messages can be encoded and then decoded. The image output uses a lossles
 
 ## Architecture
 
-This Steganography script uses optparse to grab arguments from the CLI. The script opens an image specified by the user and the pixels are loaded.
+This Steganography script uses optparse to grab arguments from the CLI. The script opens an image specified by the user and the pixels are loaded. Pixel information is stored within a class and accessed when needed. The encoder writes the length of the text into the image and then the content. The decoder pulls message length and text content. The output can be displayed through the CLI or saved to a text file.
 
 ## Instructions
 
-You must provide an operation flag to encode (-e) a message or decode (-d) a message.
-An image filename is required as an argument.
-Input from a file is optional.
-Output to a file is optional.
+You must provide an operation flag to encode (-e) a message or decode (-d) a message. An image filename is required as an argument. Input from a file is optional. Output to a file is optional.
 
 Encode Text:
 
