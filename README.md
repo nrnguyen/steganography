@@ -1,8 +1,7 @@
-# Text In Image
-- Project 1
-- CPSC 353
-- Introduction to Computer Security
-- October 31, 2017
+# Project 1: Text In Image
+- Name: Nhat "Rocky" Nguyen
+- CPSC 353: Introduction to Computer Security
+- Due Date: October 31, 2017
 
 ## Requirements
 
@@ -20,7 +19,7 @@ This Steganography script uses optparse to grab arguments from the CLI. The scri
 
 ## Instructions
 
-- You must provide an operation flag to encode (-e) a message or decode (-d) a message.
+- You must provide an operation flag to encode (-e) or decode (-d) a message.
 - An image filename is required as an argument.
 - Input from a file is optional.
 - Output to a file is optional.
